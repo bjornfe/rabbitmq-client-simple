@@ -223,7 +223,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "RabbitMQ.Client.Simple/1.0.0": {
+      "RabbitMQ.Client.Simple/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1190,7 +1190,7 @@
         "version.txt"
       ]
     },
-    "RabbitMQ.Client.Simple/1.0.0": {
+    "RabbitMQ.Client.Simple/1.0.1": {
       "type": "project",
       "path": "../RabbitMQ.Client.Simple/RabbitMQ.Client.Simple.csproj",
       "msbuildProject": "../RabbitMQ.Client.Simple/RabbitMQ.Client.Simple.csproj"
@@ -1198,7 +1198,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "RabbitMQ.Client.Simple >= 1.0.0"
+      "RabbitMQ.Client.Simple >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -1209,11 +1209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj",
+      "projectUniqueName": "C:\\Code\\rabbitmq-client-simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj",
       "projectName": "RabbitMQSimpleClientExample",
-      "projectPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj",
+      "projectPath": "C:\\Code\\rabbitmq-client-simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj",
       "packagesPath": "C:\\Users\\bfe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\obj\\",
+      "outputPath": "C:\\Code\\rabbitmq-client-simple\\RabbitMQSimpleClientExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1239,8 +1239,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {
-              "projectPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj"
+            "C:\\Code\\rabbitmq-client-simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {
+              "projectPath": "C:\\Code\\rabbitmq-client-simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj"
             }
           }
         }

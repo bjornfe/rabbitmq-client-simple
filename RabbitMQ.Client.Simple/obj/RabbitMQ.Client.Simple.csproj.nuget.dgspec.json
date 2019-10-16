@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {}
+    "C:\\Code\\rabbitmq-client-simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {
-      "version": "1.0.0",
+    "C:\\Code\\rabbitmq-client-simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj",
+        "projectUniqueName": "C:\\Code\\rabbitmq-client-simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj",
         "projectName": "RabbitMQ.Client.Simple",
-        "projectPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj",
+        "projectPath": "C:\\Code\\rabbitmq-client-simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj",
         "packagesPath": "C:\\Users\\bfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\obj\\",
+        "outputPath": "C:\\Code\\rabbitmq-client-simple\\RabbitMQ.Client.Simple\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

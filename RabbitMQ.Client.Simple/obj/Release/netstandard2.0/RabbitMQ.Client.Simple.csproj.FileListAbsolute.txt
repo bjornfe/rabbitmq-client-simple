@@ -1,0 +1,8 @@
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\bin\Release\netstandard2.0\RabbitMQ.Client.Simple.deps.json
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\bin\Release\netstandard2.0\RabbitMQ.Client.Simple.dll
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\bin\Release\netstandard2.0\RabbitMQ.Client.Simple.pdb
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Release\netstandard2.0\RabbitMQ.Client.Simple.csprojAssemblyReference.cache
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Release\netstandard2.0\RabbitMQ.Client.Simple.AssemblyInfoInputs.cache
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Release\netstandard2.0\RabbitMQ.Client.Simple.AssemblyInfo.cs
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Release\netstandard2.0\RabbitMQ.Client.Simple.dll
+C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Release\netstandard2.0\RabbitMQ.Client.Simple.pdb
