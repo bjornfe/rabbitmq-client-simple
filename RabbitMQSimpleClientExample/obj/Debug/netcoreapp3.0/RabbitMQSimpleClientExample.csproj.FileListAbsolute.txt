@@ -1,0 +1,17 @@
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\obj\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.csprojAssemblyReference.cache
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\obj\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.AssemblyInfoInputs.cache
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\obj\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.AssemblyInfo.cs
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.exe
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.deps.json
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.runtimeconfig.json
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.runtimeconfig.dev.json
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.dll
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.pdb
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\MessagePack.dll
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQ.Client.dll
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQ.Client.Simple.dll
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\bin\Debug\netcoreapp3.0\RabbitMQ.Client.Simple.pdb
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\obj\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.csproj.CopyComplete
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\obj\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.dll
+C:\Users\bfe\source\repos\RabbitMQ.Client.Simple\RabbitMQSimpleClientExample\obj\Debug\netcoreapp3.0\RabbitMQSimpleClientExample.pdb

@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj",
+        "projectName": "RabbitMQ.Client.Simple",
+        "projectPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj",
+        "packagesPath": "C:\\Users\\bfe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/icsys/_packaging/EGMS-NuGet/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/icsys/_packaging/iCsys/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MessagePack": {
+              "target": "Package",
+              "version": "[1.8.74, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj",
+        "projectName": "RabbitMQSimpleClientExample",
+        "projectPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\RabbitMQSimpleClientExample.csproj",
+        "packagesPath": "C:\\Users\\bfe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQSimpleClientExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/icsys/_packaging/EGMS-NuGet/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/icsys/_packaging/iCsys/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj": {
+                "projectPath": "C:\\Users\\bfe\\source\\repos\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple\\RabbitMQ.Client.Simple.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
