@@ -48,6 +48,11 @@ namespace RabbitMQ.Client.Simple
             return this;
         }
 
+        public RabbitMQServiceBuilder AddListenerSubscription(IRabbitMQSubscription sub)
+        {
+            subscriptions.Add(sub);
+            return this;
+        }
         public RabbitMQServiceBuilder AddListenerSubscription<T>(Action<ListenerSubscription<T>> subscription)
         {
             if (subscription == null)

@@ -28,7 +28,7 @@ namespace RabbitMQSimpleClientExample
                 .SetDebugWriter(txt=> Console.WriteLine($"[ {DateTime.Now.ToString("HH:mm:ss.fff")} ] {txt}"))
                 .SetOptions(opt =>
                 {
-                    opt.Hostname = "<rabbitmq broker address>";
+                    opt.Hostname = "<hostname>";
                     opt.Port = 5671;
                     opt.UseSSL = true;
                     opt.Username = "<username>";
@@ -77,6 +77,7 @@ namespace RabbitMQSimpleClientExample
                     };
 
                 })
+                .AddListenerSubscription(new ExampleSubscription())
                 .Build();
 
 
@@ -105,6 +106,28 @@ namespace RabbitMQSimpleClientExample
                  {
                      Console.WriteLine($"[ {DateTime.Now.ToString("HH:mm:ss.fff")} ] Command Timed out");
                  });
+
+
+            //Example of targeting the "ExampleSubscription.cs" class.
+            var cmd2 = new ExampleSubscriptionObject()
+            {
+                ObjectContent = "This is another example command"
+            };
+
+            Console.WriteLine($"[ {DateTime.Now} ] Sending Command 2");
+            rmqService.Call<ExampleRpcResult>(
+                exchange: "",
+                routingKey: typeof(ExampleSubscriptionObject).Name,
+                content: cmd2,
+                timeoutSeconds: 10,
+                ResponseCallback: (res) =>
+                {
+                    Console.WriteLine($"[ {DateTime.Now.ToString("HH:mm:ss.fff")} ] Received Command 2 Result with OK: {res.ExampleWasOk} and message: {res.ExampleResultMessage}");
+                },
+                TimeoutCallback: () =>
+                {
+                    Console.WriteLine($"[ {DateTime.Now.ToString("HH:mm:ss.fff")} ] Command Timed out");
+                });
 
             Console.ReadLine();
         }
