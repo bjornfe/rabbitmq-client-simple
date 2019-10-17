@@ -14,3 +14,12 @@ C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\R
 C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.AssemblyInfo.cs
 C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.dll
 C:\Code\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.pdb
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\bin\Debug\netstandard2.0\RabbitMQ.Client.Simple.deps.json
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\bin\Debug\netstandard2.0\RabbitMQ.Client.Simple.dll
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\bin\Debug\netstandard2.0\RabbitMQ.Client.Simple.pdb
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.csprojAssemblyReference.cache
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.csproj.CoreCompileInputs.cache
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.AssemblyInfoInputs.cache
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.AssemblyInfo.cs
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.dll
+C:\Github\rabbitmq-client-simple\RabbitMQ.Client.Simple\obj\Debug\netstandard2.0\RabbitMQ.Client.Simple.pdb

@@ -23,7 +23,7 @@ namespace RabbitMQ.Client.Simple
         private CancellationTokenSource stopSubscriptionsTokenSource = new CancellationTokenSource();
         private CancellationToken stoppingToken;
 
-        public IRabbitMQBodySerializer BodySerializer;
+        public IRabbitMQBodySerializer BodySerializer = new RabbitMQJsonSerializer();
 
         public event Action Connected;
         public event Action<string> DebugText;
@@ -346,6 +346,35 @@ namespace RabbitMQ.Client.Simple
 
             rpc_queue.TryAdd(correlationId, msg);
             publish_queue.Add(msg);
+        }
+
+        public async Task<RpcResult<T>> CallAsync<T>(string exchange, string routingKey, object content, int timeoutSeconds)
+        {
+            return await Task.Run(() =>
+            {
+                BlockingCollection<RpcResult<T>> waitQueue = new BlockingCollection<RpcResult<T>>();
+                Call<T>(exchange, routingKey, content, timeoutSeconds,
+                    (resp) =>
+                    {
+                        waitQueue.Add(new RpcResult<T>()
+                        {
+                            Success = true,
+                            Message = "OK",
+                            Result = resp
+                        });
+                    },
+                    () =>
+                    {
+                        waitQueue.Add(new RpcResult<T>()
+                        {
+                            Success = false,
+                            Message = "Timeout",
+                            Result = default(T)
+                        });
+                    });
+
+                return waitQueue.Take(stoppingToken);
+            },stoppingToken);
         }
     }
 }
