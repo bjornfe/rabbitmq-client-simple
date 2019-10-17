@@ -347,24 +347,5 @@ namespace RabbitMQ.Client.Simple
             rpc_queue.TryAdd(correlationId, msg);
             publish_queue.Add(msg);
         }
-
-        public async Task<T> CallAsync<T>(string exchange, string routingKey, object content, int timeoutSeconds)
-        {
-            return await Task.Run(() =>
-            {
-                BlockingCollection<T> waitQueue = new BlockingCollection<T>();
-                Call<T>(exchange, routingKey, content, timeoutSeconds,
-                    (resp) =>
-                    {
-                        waitQueue.Add(resp);
-                    },
-                    () =>
-                    {
-                        waitQueue.Add(default(T));
-                    });
-
-                return waitQueue.Take(stoppingToken);
-            },stoppingToken);
-        }
     }
 }
